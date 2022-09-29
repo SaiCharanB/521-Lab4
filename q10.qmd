@@ -1,0 +1,30 @@
+---
+title: "q10"
+author: "Sai Charan"
+format: revealjs
+editor: visual
+---
+
+# Exploring datasets in R
+
+This presentation has a couple examples of exploring datasets in R.
+
+# Dataset
+
+This is the Air Quality dataset.
+
+```{r}
+airquality
+```
+
+# Plotting
+
+Here we are plotting temperature.
+
+```{r}
+barplot(airquality$Temp)
+```
+
+# The End
+
+Thank you for viewing this presentation.
